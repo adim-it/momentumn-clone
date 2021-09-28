@@ -1,0 +1,59 @@
+html, body, div, span, dl, dt, dd, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family:'Roboto', 'Arial', 'Malgun Gothic', sans-serif;
+    font-size: 18px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    width : 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+}
+
+ul {list-style: none;}
+
+.wd100 {width: 100px !important;}
+.wd200 {width: 200px !important;}
+
+.mt5 {margin-top: 5px !important;}
+.mt10 {margin-top: 10px !important;}
+.ml5 {margin-left: 5px !important;}
+.ml10 {margin-left: 10px !important;}
+.pd5 {padding: 5px !important;}
+
+.rfloat {float : right !important;}
+.lfloat {float : left !important;}
+
+/* Font size */
+.fs11 {font-size:11px !important;}
+.fs12 {font-size:12px !important;}
+.fs13 {font-size:13px !important;}
+.fs14 {font-size:14px !important;}
+.fs16 {font-size:16px !important;}
+.fs18 {font-size:18px !important;}
+.fs20 {font-size:20px !important;}
+.fs22 {font-size:22px !important;}
+.fs26 {font-size:26px !important;}
+.fs30 {font-size:30px !important;}
+
+.hidden {display: none;}
+.toggle {cursor:pointer;}
