@@ -22,6 +22,7 @@ html, body {
 }
 
 input[type=text] {
+    text-align: left;
     background: transparent;
     border: none;
     font-weight: 500;
@@ -54,6 +55,8 @@ ul {list-style: none;}
 .fs22 {font-size:22px !important;}
 .fs26 {font-size:26px !important;}
 .fs30 {font-size:30px !important;}
+.fs50 {font-size:50px !important;}
+.fs70 {font-size:70px !important;}
 
 .hidden {display: none;}
 .toggle {cursor:pointer;}

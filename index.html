@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8    ">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,13 +15,15 @@
     <div class="view-port">
         <div class="top-row">
             <div class="row-left">
-                <div class="menu-item">
-                    <span>Link</span>
-                    <div id="search" class="rfloat ml10">
-                        <i class="fa fa-search"></i>
-                        <input type="text" class="ml5 wd200">
+                <form id="search-form">
+                    <div class="menu-item" class="hidden">
+                        <span>Link</span> 
+                        <div id="search" class="rfloat ml10">
+                            <i class="fa fa-search"></i>
+                            <input type="text" class="ml5 wd200">
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
             <div class="row-center"></div>
             <div class="row-right">
@@ -44,8 +46,8 @@
                 </form>
             </div>
             <div id="auth" class="main-clock">
-                <h2 id="clock" class="hidden ">00:00:00</h2>
-                <h1 id="greeting" class="hidden">
+                <h2 id="clock" class="hidden fs50">00:00:00</h2>
+                <h1 id="greeting" class="hidden fs70">
                     <span></span><span></span>
 
                 </h1>
@@ -53,13 +55,13 @@
         </div>
 
         <div class="bottom-row">
-            <div class="row-left">
+            <div class="row-left"></div>
+            <div class="row-center">
                 <div id="quote" class="menu-item">
                     <span></span>
                     <span></span>
                 </div>
             </div>
-            <div class="row-center"></div>
             <div class="row-right"><span id="todo-btn" class="menu-item toggle">Todo</span></div>
         </div>
         
@@ -82,6 +84,7 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script> 
+    <script src="js/search.js"></script>
+    <script src="js/weather.js"></script>  
 </body>
 </html>

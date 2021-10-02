@@ -5,13 +5,17 @@ body, input, textarea {
     font-size:100%;
 }
 
-
 .view-port input[type=text] {
     width: 100%;
-    text-align: center;
     border-bottom: #fff 2px solid;
 }
 
+#login input[type=text] {
+    text-align: center;
+}
+
+#clock {font-size : 50px}
+#greeting {font-size : 70px}
 
 #background {
     position: absolute;
@@ -21,6 +25,7 @@ body, input, textarea {
     bottom: 0;
     pointer-events: none;
     user-select: none;
+    background-size : cover; 
 }
 
 .view-port {
@@ -49,7 +54,6 @@ body, input, textarea {
     flex : 1;
     justify-content: center;
     align-items: center;
-   
 }
 
 .bottom-row {
@@ -58,11 +62,20 @@ body, input, textarea {
     display: flex;
     align-items: center;
 }
-  
+
+
 .row-center {
-    flex : 1
+    flex : 1;
 }
 
+
+.bottom-row .row-right, .bottom-row .row-left {
+    width : 20%;
+}
+
+.row-right {
+    text-align: right;
+}
 
 .main-clock{
     text-align: center;
@@ -84,6 +97,9 @@ body, input, textarea {
     /* transition-property: opacity,height; */
     /* transform-origin :right bottom; */
 }
+.todo-pop li {
+    margin-bottom: 3px;
+}
 
 .todo-pop input {
     color : #323232
@@ -93,9 +109,5 @@ body, input, textarea {
 .pop-header {
     color:#222;
     font-size: 20px;
-    margin-bottom: 5px;
-}
-
-.show-fade-in {
-
+    margin-bottom: 7px;
 }
