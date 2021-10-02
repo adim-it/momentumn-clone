@@ -40,7 +40,6 @@ body, input, textarea {
 
  .top-row, .center-row , .bottom-row {
      padding : 0 20px
-
 }
  
 .top-row {
@@ -63,11 +62,10 @@ body, input, textarea {
     align-items: center;
 }
 
-
 .row-center {
     flex : 1;
+    text-align: center;
 }
-
 
 .bottom-row .row-right, .bottom-row .row-left {
     width : 20%;
